@@ -3173,7 +3173,7 @@ async function placeOrder(){
 
 // Function to save order to Google Sheets
 async function saveOrderToGoogleSheets(orderData) {
-    const scriptUrl = 'script.google.com/macros/s/AKfycbwXSiyrCGSvIbfMYm9r6GOlSgTV0WfKi74FPG_Otg66SX7jVL0EbUD6iuUjr3VYcvw/exec';
+    const scriptUrl = 'https://script.google.com/macros/s/AKfycbzyIRXsTDDjHgnK0Hu1cTRWHHkMTkao0Elg1K0PR_TJc-oMjwGmDj22diIT8dkNYhEr/exec';
     
     const response = await fetch(scriptUrl, {
         method: 'POST',
